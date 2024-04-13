@@ -1,10 +1,11 @@
 import React from 'react'
-import logo from '../assets/images/Logo.svg'
+
+import Navbar from './Navbar'
 
 const HeroSection = () => {
   return (
-    <div>HeroSection
-    <img src={logo} alt="logo" />
+    <div className='bg-[#F8E968]'>
+      <Navbar />
     </div>
   )
 }
